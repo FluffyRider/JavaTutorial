@@ -24,9 +24,12 @@ public class MasinaConfigurator {
     //Cand copilul mosteneste parintele, copilul terbuie sa apeleze constructorul din parinte.
     //Copilul va avea access la proprietatile/metodele din clasa parinte (daca se foloseste public/protected/default)
     // Ca sa apelam constructorul din parinte in copil se foloseste cuvantul 'super'
+    //Incapsulare = conceptul prin care sa setam anumite restrictii de vizibilitate pentru proprietati/Metode
+
     //POLIMORFISM
     //Polimorfism= Conceptul prin care o metoda poate avea implemantari diferite
     //Polimorfismul poate fi de 2 feluri: Dinamic(Override) si Static (Overload)
+
     //Polimorfism Dinamic = Intro-o ieriarhie de clase obtinute prin mostenire o metoda poate avea implemantari diferite
     //Polimorfismul dinamic este prezent doar la mostenire
 
@@ -47,18 +50,32 @@ public class MasinaConfigurator {
     public void deschideGeam(){
         System.out.println("Geamurile se deschid elkectric");
     }
+    public void trapaPanoramica(){
+        System.out.println("Trapa Electrica");
+    }
+    public void scaune(){
+        System.out.println("Scaunele se activeaza electric");
+    }
 
     //Polimorfism Static
     public void promotieDacia(){
         System.out.println("Pentru luna Iulie, Dacia nu are promotie");
     }
     public void promotieDacia(String ticket){
-        System.out.println("Daca ai " + ticket + " rabla. primesti reducere ");
+        System.out.println("Daca ai " + ticket + " Rabla. primesti reducere ");
     }
     public void promotieDacia(Integer reducere){
-        System.out.println("In luna Decembrie, Dacia primeste " + reducere + " reducere");
+        System.out.println("In luna Decembrie, Dacia primeste " + reducere + "% reducere");
     }
-
+    public void promotieVolkswagen(){
+        System.out.println("Pentru luna August, Polo nu are promotie");
+    }
+    public void promotieVolkswagen(String ticket){
+        System.out.println("Daca ai " + ticket + " rabla. primesti reducere");
+    }
+    public void promotieVolkswagen(Integer reducere){
+        System.out.println("In luna Ianuarie, Polo primeste " + reducere + "% reducere");
+        }
 
 
 

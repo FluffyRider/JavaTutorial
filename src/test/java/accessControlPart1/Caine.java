@@ -5,6 +5,7 @@ public class Caine {
 
     public void metodaPublica(){
     }
+
     private void metodaPrivata(){
 
     }

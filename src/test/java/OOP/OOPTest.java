@@ -11,7 +11,8 @@ public class OOPTest {
     @Test
     public void testMethod() {
         //Dam o comanda de o masina Dacia
-        List<String> echipamenteLogan = Arrays.asList("Pachet Techno", "pachet Clima", "Pachet Parking");
+        /*
+          List<String> echipamenteLogan = Arrays.asList("Pachet Techno", "pachet Clima", "Pachet Parking");
         List<String> accesoriiLogan = Arrays.asList("Covorase", "Scrumiera", "Suport de pahare");
 
         DaciaConfigurator Logan = new DaciaConfigurator("Dacia", "Logan", 2024,  "Essential",
@@ -21,17 +22,25 @@ public class OOPTest {
         Logan.pornesteMotorul();
         Logan.deschideGeam();
         Logan.promotieDacia();
-        Logan.promotieDacia("RABLA");
+        Logan.promotieDacia("TICKET");
         Logan.promotieDacia(25);
-
+        Logan.trapaPanoramica();
+        Logan.scaune();
+*/
         //dam o comanda de o maisna Volskwagen
-        //List<String>dotariOptionalePolo = Arrays.asList("Pachet Confort", "Trapa de stcla panormaica", "Alarma antifurt," +
-               // " imobilizator", "keyless Access");
-               //VolkswagenConfigurator Polo = new VolkswagenConfigurator("Volskwagen", "Polo", 2023,  "Gri", "Tasdad",
-                       //"Albastru","Tabla 16", "Stofa",dotariOptionalePolo);
+        List<String>dotariOptionalePolo = Arrays.asList("Pachet Confort", "Trapa de sticla panormaica", "Alarma antifurt",
+                "imobilizator", "keyless Access");
+               VolkswagenConfigurator Polo = new VolkswagenConfigurator("Volskwagen", "Polo", 2023,  "Life", "Tasdad",
+                       "Albastru","Tabla 16", "Stofa",dotariOptionalePolo);
 
-        //Polo.infoVolskwagen();
-
+        Polo.infoVolskwagen();
+        Polo.pornesteMotorul();
+        Polo.deschideGeam();
+        Polo.promotieDacia();
+        Polo.promotieDacia("RABLABLBA");
+        Polo.promotieDacia(7);
+        Polo.trapaPanoramica();
+        Polo.scaune();
 
         // Dam comanda de o masina Opel Corsa
 

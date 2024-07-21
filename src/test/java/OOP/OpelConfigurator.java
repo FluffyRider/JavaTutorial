@@ -3,7 +3,7 @@ package OOP;
 import java.util.List;
 
 public class OpelConfigurator extends MasinaConfigurator {
-
+    public String versiune;
     public String combustibil;
     public String vopsea;
     public String jante;
@@ -15,6 +15,7 @@ public class OpelConfigurator extends MasinaConfigurator {
     public OpelConfigurator(String marca, String model, Integer an,String combustibil, String vopsea, String jante,
                             String designInterior, List<String> pacheteOptionale) {
         super(marca, model, an);
+        this.versiune = versiune;
         this.combustibil = combustibil;
         this.vopsea=vopsea;
         this.jante=jante;
@@ -23,6 +24,7 @@ public class OpelConfigurator extends MasinaConfigurator {
     }
     public void infoOpel(){
         infoMasina();
+        System.out.println("Versiunea masinii este: " + versiune);
         System.out.println("Combustibilul folosit este: " + combustibil);
         System.out.println("Culoarea masinii este: " + vopsea);
         System.out.println("Rotile masinii sunt: " + jante);

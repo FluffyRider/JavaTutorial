@@ -54,6 +54,13 @@ public class DaciaConfigurator extends MasinaConfigurator {
     public void deschideGeam(){
         System.out.println("Deschidem geamul cu toporul");
     }
+    public void trapaPanoramica(){
+        System.out.println("Trapa panormaica este electrica");
+    }
+    public void scaune(){
+        System.out.println("Scaune manevrate electric");
+    }
+
     //trebuie sa determinam pretul standard in functie de modelul maisinii (Dacia vs VW)
 
     public void calculPretStandard() {
