@@ -2,10 +2,12 @@ package exceptii;
 
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
+
 public class ExceptionTest {
 
     @Test
-    public void methodTest(){
+    public void methodTest() throws FileNotFoundException {
         ExceptieConcept exceptieConcept = new ExceptieConcept();
        // exceptieConcept.checkedExceptionExample();
        // exceptieConcept.uncheckedExceptionExample();

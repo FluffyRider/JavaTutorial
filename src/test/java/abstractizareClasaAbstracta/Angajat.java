@@ -2,7 +2,7 @@ package abstractizareClasaAbstracta;
 
 import abstractizareInterfata.AngajatInterface;
 
-public class Angajat extends Persoana implements AngajatInterface {
+public abstract class Angajat extends Persoana implements AngajatInterface {
 
     public Angajat(String nume, String prenume, Integer varsta, Double inaltime, Character sex) {
         super(nume, prenume, varsta, inaltime, sex);

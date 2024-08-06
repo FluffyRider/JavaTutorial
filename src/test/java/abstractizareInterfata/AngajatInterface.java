@@ -16,11 +16,8 @@ public interface AngajatInterface extends CommonInterface {
 
 
     void mergeLaServiciu();
-
     void desfasoaraActivitate();
-
     void beaCafea();
-
     void incheieActivitatea();
 
 }

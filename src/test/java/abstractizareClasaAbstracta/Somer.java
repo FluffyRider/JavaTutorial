@@ -1,6 +1,6 @@
 package abstractizareClasaAbstracta;
 
-public class Somer extends Persoana{
+public abstract class Somer extends Persoana{
 
     public Somer(String nume, String prenume, Integer varsta, Double inaltime, Character sex) {
         super(nume, prenume, varsta, inaltime, sex);

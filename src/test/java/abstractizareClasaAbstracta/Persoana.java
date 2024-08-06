@@ -30,7 +30,10 @@ public abstract class Persoana {
     public abstract void mananca();
     public abstract void doarme();
     public abstract void iaPauza();
-    public abstract void fazan();
+    public abstract void iaSalar();
+    public abstract void cautaDeLucru();
+    public abstract void depuneCV();
+    public abstract void staAcasa();
 
 
     public String getNume() {
